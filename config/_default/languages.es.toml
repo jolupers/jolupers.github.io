@@ -1,14 +1,23 @@
-# config/_default/languages.en.toml
+# config/_default/languages.es.toml
 
 title = "José Luis Pérez"
+description = "José Luis Pérez's personal website."
+copyright = "@2022, José Luis Pérez"
 
 [author]
-name = "José Luis Pérez"
-image = "img/author.jpg"
-headline = "A generally awesome human"
-bio = "A little bit about me"
+name = "¡Hola!,  soy José Luis :call_me_hand:"
+image = "img/author.png"
+headline = "¡Hola!,  soy José Luis :tada:"
+bio ="This is my bio"
+
 links = [
-  { twitter = "https://twitter.com/username" }
+  {linkedin = "https://www.linkedin.com/in/jose-luis-perez-sanchez/"},
+  {instagram = "https://www.instagram.com/jooseluisperez/"},
+  {medium = "https://medium.com/@perezjoseluis"},
+  {telegram = "https://t.me/@joluper"}
 ]
+
+
+content = "This is a test"
 
 
