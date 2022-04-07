@@ -1,10 +1,13 @@
 ---
-title: "Welcome to Congo! :tada:"
-description: "This is a demo of the Congo theme for Hugo."
+title: "¡Bienvenido!"
+description: "Esta es mi web hecha con Hugo y Congo."
 ---
 
 {{< lead >}}
-A powerful, lightweight theme for Hugo built with Tailwind CSS.
-{{< /lead >}}
+  
+{{< /lead >}}  
 
-This is a demo site built entirely using Congo. It also contains a complete set of documents. Congo is flexible and is great for both static page-based content (like this demo) or a traditional blog with a feed of recent posts.
+:cloud: Trabajo como [consultor independiente]({{< ref "https://www.google.com" >}}) en ciberseguridad, especializado en entornos en la nube. También escribo [artículos]({{< ref "posts" >}}) y participo en [eventos]({{< ref "eventos" >}}).  
+:minibus: Co-creo [Onfurgo]({{< ref "https://www.google.com" >}}), mi proyecto de vida que planteo que me pueda permitir vivir "traviajando" durante mucho tiempo en mi pequeño piso sobre ruedas.  
+:book: Escribo artículos sobre mis intereses varios. Nomadismo digital, desarrollo personal, ciberseguridad, entre otros.   
+   
