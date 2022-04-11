@@ -11,9 +11,8 @@
 # ordered by weight from lowest to highest.
 
 [[main]]
-  name = "Blog"
-  pageRef = "posts"
-  weight = 10
+  name = "Contacto"
+  pageRef = "pages/contact.md"
 
 #  [[main]]
 #    name = "Categories"

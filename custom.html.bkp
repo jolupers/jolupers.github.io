@@ -1,9 +1,9 @@
 <article
-  class="flex flex-col items-center justify-center text-left {{ if not .Site.Params.homepage.showRecent }}
+  class="flex flex-col items-center justify-center text-center {{ if not .Site.Params.homepage.showRecent }}
     h-full
   {{ end }}"
 >
-  <header class="flex-col items-left mb-3" flex>
+  <header class="flex flex-col items-center mb-3">
     {{ with .Site.Author.image }}
       {{ $authorImage := resources.Get . }}
       {{ if $authorImage }}
@@ -17,20 +17,19 @@
         />
       {{ end }}
     {{ end }}
-    <h1 class="text-4xl flex font-extrabold">
-      {{ .Site.Author.name | default .Site.Title | emojify }}
+    <h1 class="text-4xl font-extrabold">
+      {{ .Site.Author.name | default .Site.Title }}
     </h1>
     {{ with .Site.Author.headline }}
-      <h2 class="text-xl text-neutral-500 dark:text-neutral-400" flex>
+      <h2 class="text-xl text-neutral-500 dark:text-neutral-400">
         {{ . }}
       </h2>
     {{ end }}
-    <div class="mt-1 text-2xl" flex>
+    <div class="mt-1 text-2xl">
       {{ partialCached "author-links.html" . }}
     </div>
-    <section class="prose dark:prose-invert" flex>{{ .Content | emojify }}</section>
-    <iframe src="https://jolupers.substack.com/embed" scrolling="no"></iframe>
   </header>
+  <section class="prose dark:prose-invert">{{ .Content | emojify }}</section>
 </article>
 <section>
   {{ partial "recent-articles.html" . }}

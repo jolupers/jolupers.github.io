@@ -5,19 +5,15 @@ description = "José Luis Pérez's personal website."
 copyright = "@2022, José Luis Pérez"
 
 [author]
-name = "¡Hola!,  soy José Luis :call_me_hand:"
+name = "José Luis Pérez"
 image = "img/author.png"
-headline = "¡Hola!,  soy José Luis :tada:"
-bio ="This is my bio"
+headline = "Apasionado de la ciberseguridad y la vanlife."
+bio ="Ser multipotencial técnico y analítico con ganas conectar, ¿hablamos?"
 
 links = [
+  {twitter = "https://twitter.com/jolupers"},
   {linkedin = "https://www.linkedin.com/in/jose-luis-perez-sanchez/"},
-  {instagram = "https://www.instagram.com/jooseluisperez/"},
-  {medium = "https://medium.com/@perezjoseluis"},
-  {telegram = "https://t.me/@joluper"}
+  {instagram = "https://www.instagram.com/jolupers/"},
+  {telegram = "https://t.me/@jolupers"}
 ]
-
-
-content = "This is a test"
-
 
