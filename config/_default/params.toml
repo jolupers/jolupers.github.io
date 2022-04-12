@@ -22,10 +22,10 @@ showScrollToTop = true
   showRecent = false
 
 [article]
-  showDate = true
+  showDate = false
   showDateUpdated = false
-  showAuthor = true
-  showBreadcrumbs = false
+  showAuthor = false
+  showBreadcrumbs = true
   showDraftLabel = true
   showEdit = false
   # editURL = "https://github.com/username/repo/"

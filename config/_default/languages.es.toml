@@ -7,8 +7,8 @@ description = "José Luis Pérez's personal website."
 [author]
 name = "José Luis Pérez"
 image = "img/author.png"
-headline = "Apasionado de la ciberseguridad y la vanlife."
-bio ="Apasionado de la ciberseguridad y la vanlife."
+headline = "Apasionado de la ciberseguridad y la vida en furgo."
+bio ="Apasionado de la ciberseguridad y la vida en furgo."
 
 links = [
   {twitter = "https://twitter.com/jolupers"},
